@@ -1,0 +1,69 @@
+.cuadrado{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    font-family: Helvetica; 
+    margin-top: 7%;
+}
+h1{
+    text-align: center;
+    padding-top: 1rem;
+}
+h2{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.cajas{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 3px;
+    border: grey 1px solid;
+    /*margin: 0 20%;*/
+    margin-bottom: .5rem;
+    font-size: 16px;
+    padding: 5px;
+}
+.btn{
+    display: block;
+    width: 61%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: rgb(62, 104, 219);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+.caja2{
+    display: block;
+    width: 61%;
+    margin: 0 auto;
+    text-align: end;
+}
+.titulos{
+    display: block;
+    width: 61%;
+    margin: 0 auto;
+}
+.caja2 a{
+    text-decoration: none;
+    color: red;
+}
+.caja2 a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 558px){
+    h1{
+        font-size: 21px;
+    }
+}

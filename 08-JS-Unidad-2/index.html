@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de JS-U2</JS-U2>
+    </title>
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ejercicio de JS-U2</h1>
+    <script>
+        function escribirTablaMultiplicar(j) {
+
+            document.write("<h2>La tabla del " + j + ":</h2>");
+
+            document.write("<ul>");
+            //i++ significa i=i+1;
+
+            for (i = 1; i < 10; i++) {
+                document.write("<li>");
+                document.write(j + " x " + i + ": " + j * i);
+                document.write("</li>");
+            }
+
+            document.write("</ul>");
+        }
+
+        escribirTablaMultiplicar(11);
+        escribirTablaMultiplicar(10);
+        escribirTablaMultiplicar(9);
+    </script>
+</body>
+
+</html>
